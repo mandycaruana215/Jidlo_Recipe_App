@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Jidlo</string>
+    <string name="heading">Find your Recipe</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="create_account">Create An Account</string>
+    <string name="enter_email">Email</string>
+    <string name="enter_password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_name">Full Name</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="yes_account">Already have an account?</string>
+    <string name="sign_up_now">Sign Up Now!</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="Send_your_recipe">Send Us Your Recipe!</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="subject">Subject</string>
+    <string name="submit">Submit</string>
+    <string name="logout">Logout</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="prep_time">Prep Time (in minutes)</string>
+    <string name="cook_time">Cook Time (in minutes)</string>
+    <string name="total_time">Total Time (in minutes)</string>
+    <string name="calories">Calories per Serving</string>
+    <string name="serving">Servings</string>
+    <string name="number_of_ingredients">Number of Ingredients</string>
+    <string name="category">Category (per Serving)</string>
+    <string name="vegeterian">Vegeterian Safe</string>
+    <string name="glutenFree">Gluten Free</string>
+    <string name="spicy">Spicy</string>
+    <string name="containsNuts">Contains Nuts</string>
+<string name="ingredient">Ingredient</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="steps">Steps</string>
+    <string name="step">Step</string>
+    <string name="addimage">Add Image</string>
+
+    <string name="category1_prompt">Type of Meal</string>
+    <string-array name="category1">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snacks</item>
+        <item>Desserts</item>
+    </string-array>
+
+    <string name="category2_prompt">Type of Dish</string>
+
+    <string-array name="category2">
+        <item>Pasta</item>
+        <item>Pizza</item>
+        <item>Burgers</item>
+        <item>Omelette</item>
+        <item>Sushi</item>
+        <item>Chinese</item>
+        <item>Wraps</item>
+        <item>Chicken</item>
+        <item>Traditional</item>
+        <item>Fish</item>
+        <item>Sea Food</item>
+        <item>Salads</item>
+        <item>Grill</item>
+        <item>Vegetables</item>
+        <item>Soups</item>
+        <item>Juices &amp; Smoothies</item>
+
+    </string-array>
+
+    <string name="difficulty_prompt">Difficulty of Dish</string>
+    <string-array name="difficulty">
+        <item>Easy</item>
+        <item>More Effort</item>
+        <item>A Challenge</item>
+    </string-array>
+</resources>
