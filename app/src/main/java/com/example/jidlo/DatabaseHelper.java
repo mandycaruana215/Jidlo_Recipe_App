@@ -22,7 +22,7 @@ import java.util.ListIterator;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
 
-    public static final String DATABASE_NAME = "MyRecipeDatabase.db";
+    public static final String DATABASE_NAME = "FinalDatabase.db";
 
     public DatabaseHelper(Context context)
     {

@@ -50,10 +50,11 @@ public class CustomGridView extends BaseAdapter {
              gridView = inflater.inflate(R.layout.viewmodel, null);
         }
 
+        int id = myRecipes.get(position).id;
+
         ImageView recipeimageView = (ImageView)gridView.findViewById(R.id.recipeimageIV);
         recipeimageView.setImageURI(Uri.parse(myRecipes.get(position).image));
 
-        Log.v("testingimage",  myRecipes.get(position).image + "");
 
         TextView recipetitle = (TextView)gridView.findViewById(R.id.titleTV);
         recipetitle.setText(myRecipes.get(position).title);
@@ -64,11 +65,17 @@ public class CustomGridView extends BaseAdapter {
         TextView recipecalories = (TextView)gridView.findViewById(R.id.caloriesTV);
         recipecalories.setText(myRecipes.get(position).calories + "");
 
-        TextView recipetTime = (TextView)gridView.findViewById(R.id.totalTimeTV);
-        recipetTime.setText(myRecipes.get(position).totaltime + " mins");
+        TextView recipeprepTime = (TextView)gridView.findViewById(R.id.prepTimeTV);
+        recipeprepTime.setText(myRecipes.get(position).preptime + " mins");
+
+        TextView recipecookTime = (TextView)gridView.findViewById(R.id.cookTimeTV);
+        recipecookTime.setText(myRecipes.get(position).cooktime + " mins");
 
         TextView recipediff = (TextView)gridView.findViewById(R.id.difficultyTV);
         recipediff.setText(myRecipes.get(position).difficulty + "");
+
+        TextView serv = (TextView)gridView.findViewById(R.id.servings) ;
+        serv.setText(myRecipes.get(position).servings +"");
 
         TextView recipenoIngredients = (TextView)gridView.findViewById(R.id.numberOfIngredientsTV);
         recipenoIngredients.setText(myRecipes.get(position).no_of_ingredients + "");
@@ -105,7 +112,7 @@ public class CustomGridView extends BaseAdapter {
         TextView allergies = (TextView)gridView.findViewById(R.id.allergies);
         allergies.setText(allergiestext);
 
-        Log.v("CGA",  myRecipes.get(position).title + " " + myRecipes.get(position).description);
+        Log.v("CGA",  myRecipes.get(position).title + " " + myRecipes.get(position).description); //used for testing purposes
 
         return gridView;
 

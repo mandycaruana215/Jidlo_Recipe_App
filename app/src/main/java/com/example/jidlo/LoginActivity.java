@@ -31,8 +31,6 @@ public class LoginActivity extends AppCompatActivity {
         psw = (TextInputEditText)findViewById(R.id.enter_password);
         Submit = (Button)findViewById(R.id.login);
 
-        Toast.makeText(getApplicationContext(),"User Login Status: "+ sessionManager.isUserLoggedIn(),Toast.LENGTH_LONG).show();
-
 
 
         Submit.setOnClickListener(new View.OnClickListener()

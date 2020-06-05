@@ -19,6 +19,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     TabLayout tabLayout;
     ViewPager viewPager;
     DatabaseHelper db;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,43 +64,18 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         tabLayout = (TabLayout) findViewById(R.id.tablayout);
         tabLayout.setupWithViewPager(viewPager);
-/*
-
-        CardView view = (CardView) LayoutInflater.from(this).inflate(R.layout.custom_tab_layout, null);
-        view.findViewById(R.id.breakfast);
-
-        CardView view1 = (CardView) LayoutInflater.from(this).inflate(R.layout.custom_tab_layout, null);
-        view1.findViewById(R.id.lunch);
-
-        CardView view2 = (CardView) LayoutInflater.from(this).inflate(R.layout.custom_tab_layout, null);
-        view2.findViewById(R.id.dinner);
-
-        CardView view3 = (CardView) LayoutInflater.from(this).inflate(R.layout.custom_tab_layout, null);
-        view3.findViewById(R.id.snacks);
-
-        CardView view4 = (CardView) LayoutInflater.from(this).inflate(R.layout.custom_tab_layout, null);
-        view4.findViewById(R.id.desserts);
-*/
-
-       /* CardView view5 = (CardView) LayoutInflater.from(this).inflate(R.layout.custom_tab_layout, null);
-        view5.findViewById(R.id.breakfast);*/
 
         View view1 = LayoutInflater.from(this).inflate(R.layout.custom_tab_layout, null);
         ((ImageView) view1.findViewById(R.id.image)).setImageResource(R.drawable.breakfast);
 
-
-
         View view2 = LayoutInflater.from(this).inflate(R.layout.custom_tab_layout, null);
         ((ImageView) view2.findViewById(R.id.image)).setImageResource(R.drawable.lunch);
-
 
         View view3 = LayoutInflater.from(this).inflate(R.layout.custom_tab_layout, null);
         ((ImageView) view3.findViewById(R.id.image)).setImageResource(R.drawable.dinner);
 
-
         View view4 = LayoutInflater.from(this).inflate(R.layout.custom_tab_layout, null);
         ((ImageView) view4.findViewById(R.id.image)).setImageResource(R.drawable.snacks);
-
 
         View view5 = LayoutInflater.from(this).inflate(R.layout.custom_tab_layout, null);
         ((ImageView) view5.findViewById(R.id.image)).setImageResource(R.drawable.desserts);
@@ -148,6 +125,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 Intent intent2 = new Intent (MainActivity.this, SendARecipeActivity.class);
                 startActivity(intent2);
                 break;
+
+            case R.id.nav_login:
+                Intent intent3 = new Intent (MainActivity.this, LoginActivity.class);
+                startActivity(intent3);
+                break;
+
 
 
 

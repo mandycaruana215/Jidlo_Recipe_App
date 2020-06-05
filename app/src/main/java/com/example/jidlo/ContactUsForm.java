@@ -50,7 +50,6 @@ public class ContactUsForm extends AppCompatActivity {
 
         sEmail = "mandycaruana.215@gmail.com";
         sPassword = "MandyilGoalkeeper12";
-       // sPassword = new char[] {'M','a','n','d','y','i','l','G','o','a','l','k','e','e','p','e','r','1','2'};
 
 
         Back = (ImageView) findViewById(R.id.back_button);

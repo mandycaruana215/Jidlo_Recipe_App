@@ -45,6 +45,7 @@ public class SendARecipeActivity extends AppCompatActivity {
         db = new DatabaseHelper(this);
         title = (EditText) findViewById(R.id.title);
         description = (EditText) findViewById(R.id.description);
+
         spnCategory1 = (Spinner) findViewById(R.id.cat1_spinner1);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.category1, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);

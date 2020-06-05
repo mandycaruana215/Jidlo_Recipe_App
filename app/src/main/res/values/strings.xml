@@ -29,18 +29,20 @@
     <string name="total_time">Total Time (in minutes)</string>
     <string name="calories">Calories per Serving</string>
     <string name="serving">Servings</string>
+    <string name="servers">Serves: </string>
     <string name="number_of_ingredients">Number of Ingredients</string>
     <string name="category">Category (per Serving)</string>
     <string name="vegeterian">Vegeterian Safe</string>
     <string name="glutenFree">Gluten Free</string>
     <string name="spicy">Spicy</string>
     <string name="containsNuts">Contains Nuts</string>
-<string name="ingredient">Ingredient</string>
+    <string name="ingredient">Ingredient</string>
     <string name="ingredients">Ingredients</string>
     <string name="steps">Steps</string>
     <string name="step">Step</string>
     <string name="addimage">Add Image</string>
-
+    <string name="name">Name: </string>
+    <string name="email">Email: </string>
     <string name="category1_prompt">Type of Meal</string>
     <string-array name="category1">
         <item>Breakfast</item>

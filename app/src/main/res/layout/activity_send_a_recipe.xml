@@ -467,28 +467,32 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/vegeterian"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginTop="20dp"
+            android:textColorLink="@color/colorPrimary"/>
 
         <CheckBox
             android:id="@+id/gluten_free"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/glutenFree"
-            android:layout_marginTop="5dp"/>
+            android:layout_marginTop="5dp"
+            android:textColorLink="@color/colorPrimary"/>
 
         <CheckBox
             android:id="@+id/spicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:text="@string/spicy"
-            android:layout_marginTop="5dp"/>
+            android:textColorLink="@color/colorPrimary" />
 
         <CheckBox
             android:id="@+id/containsNuts"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/containsNuts"
-            android:layout_marginTop="5dp"/>
+            android:layout_marginTop="5dp"
+            android:textColorLink="@color/colorPrimary"/>
 
         <TextView
             android:layout_width="wrap_content"
